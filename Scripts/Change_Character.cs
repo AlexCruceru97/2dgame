@@ -4,48 +4,51 @@ using UnityEngine;
 
 public class Change_Character : MonoBehaviour
 {
-    public GameObject PlayerMale;
-    public GameObject PlayerFemale;
-    private Vector3 CharacterPosition;
-    private Vector3 OffScreen;
-    private int CharacterInt = 0;
-    private SpriteRenderer PlayerMaleRender, PlayerFemaleRender;
-    
+    public GameObject avatar1, avatar2;
+    public  int CharacterInt = 1;
 
-    //Punem imaginile caracterelor pe screen si off screen
-    private void Awake()
+    //public int Character
+    //{
+    //    get
+    //    {
+    //        return this.CharacterInt;
+    //    }
+    //    set
+    //        {
+    //        CharacterInt = value;
+    //    }
+    //}
+
+
+    // Start is called before the first frame update
+    private void Start()
     {
-        CharacterPosition = PlayerMale.transform.position;
-        OffScreen = PlayerFemale.transform.position;
-        PlayerMaleRender = PlayerMale.GetComponent<SpriteRenderer>();
-        PlayerFemaleRender = PlayerFemale.GetComponent<SpriteRenderer>();
+        avatar1.gameObject.SetActive(true);
+        avatar2.gameObject.SetActive(false);
     }
 
-    public void NextCharacter()
+    public void ChangeAvatar()
     {
-        //Alegem primul character 
-        if (CharacterInt == 1)
-        {
-            PlayerPrefs.SetInt("SelectedCharacter", 0);
-            PlayerMaleRender.enabled = false;
-            PlayerMale.transform.position = OffScreen;
-            PlayerFemale.transform.position = CharacterPosition;
-            PlayerFemaleRender.enabled = true;
-            CharacterInt = 0;
+        if (CharacterInt == 1) {
+
+            CharacterInt = 2;
+
+            avatar1.gameObject.SetActive(false);
+            avatar2.gameObject.SetActive(true);
+
         }
-        //Alegem al doilea caracter
-        else if (CharacterInt==0)
-        {
-            PlayerPrefs.SetInt("SelectedCharacter", 1);
-            PlayerFemaleRender.enabled = false;
-            PlayerFemale.transform.position = OffScreen;
-            PlayerMale.transform.position = CharacterPosition;
-            PlayerMaleRender.enabled = true;
-            CharacterInt = 1;
+            else if (CharacterInt == 2) { 
+
+                CharacterInt = 1;
+
+                avatar1.gameObject.SetActive(true);
+                avatar2.gameObject.SetActive(false);
+
+               
+
         }
-       
     }
 
-   
+
 
 }
