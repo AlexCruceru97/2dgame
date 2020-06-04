@@ -1,5 +1,75 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1542550337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1542550338}
+  - component: {fileID: 1542550339}
+  - component: {fileID: 1542550340}
+  m_Layer: 0
+  m_Name: LayerSorter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1542550338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542550337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 328553926370500004}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1542550339
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542550337}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.04}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 0.43, y: 0.78}
+  m_EdgeRadius: 0
+--- !u!114 &1542550340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542550337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e0a8fcddebeda3469e2ca86e40bbb2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &328553926097019695
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,9 +226,10 @@ GameObject:
   - component: {fileID: 4567836805481110318}
   - component: {fileID: 328553926370500009}
   - component: {fileID: 328553926370500008}
+  - component: {fileID: 3399830878854979540}
   m_Layer: 0
   m_Name: Female
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -175,6 +246,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 328553926212183063}
+  - {fileID: 1542550338}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -214,9 +286,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: 356164879
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 4327819945734655118, guid: d856c51ae58137746a676fae699e0bb8,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -242,9 +314,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  health: {fileID: 296613111298748616, guid: af3896ffb3eefa74682a10a6575a3bb6, type: 3}
-  mana: {fileID: 8957679601976694979, guid: bb43fd3da2593fe4cb2dd004874adc65, type: 3}
+  hitbox: {fileID: 0}
   initHealth: 100
+  health: {fileID: 0}
+  mana: {fileID: 0}
   initMana: 50
   blocks:
   - first: {fileID: 328553926097019695}
@@ -255,10 +328,6 @@ MonoBehaviour:
     second: {fileID: 328553926427710724}
   - first: {fileID: 328553927045339343}
     second: {fileID: 328553926498982395}
-  spellPrefab:
-  - {fileID: 8977559318955578714, guid: ab0b4f86564cb4a4e96ec084eee4314a, type: 3}
-  - {fileID: 8977559318955578714, guid: 3e885a9ecd543fd47997d4baf8806bf1, type: 3}
-  - {fileID: 8977559318955578714, guid: 1613c38000f6dfc4184851f792504b3a, type: 3}
 --- !u!114 &4567836805481110318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,6 +340,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 112ca06d0c2506d40a5f17b32b838099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  castingBar: {fileID: 0}
+  spellName: {fileID: 0}
+  castTime: {fileID: 0}
+  icon: {fileID: 0}
+  canvasGroup: {fileID: 0}
+  spells:
+  - name: EnergyBall
+    damage: 5
+    icon: {fileID: 21300000, guid: ee34195976181ef4b83f98f5034ab668, type: 3}
+    castTime: 0.5
+    speed: 3
+    spellPrefab: {fileID: 8977559318955578714, guid: ab0b4f86564cb4a4e96ec084eee4314a,
+      type: 3}
+    barColor: {r: 0.062077243, g: 0.062077243, b: 0.7529412, a: 1}
+  - name: IceProjectile
+    damage: 7
+    icon: {fileID: 21300000, guid: 0d1dc8ade7e63d14da6ea8a209621906, type: 3}
+    castTime: 1
+    speed: 5
+    spellPrefab: {fileID: 8977559318955578714, guid: 3e885a9ecd543fd47997d4baf8806bf1,
+      type: 3}
+    barColor: {r: 0.05098039, g: 0.65133953, b: 1, a: 1}
+  - name: FireBall
+    damage: 10
+    icon: {fileID: 21300000, guid: 2d0997ac1b1fd664e98202450e7ea2d7, type: 3}
+    castTime: 2
+    speed: 1
+    spellPrefab: {fileID: 8977559318955578714, guid: 1613c38000f6dfc4184851f792504b3a,
+      type: 3}
+    barColor: {r: 0.9647059, g: 0.034262005, b: 0, a: 1}
 --- !u!95 &328553926370500009
 Animator:
   serializedVersion: 3
@@ -311,6 +410,32 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!61 &3399830878854979540
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328553926370500011}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.37}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.56, y: 0.94}
+    newSize: {x: 0.3, y: 0.46}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.07}
+  m_EdgeRadius: 0
 --- !u!1 &328553926427710724
 GameObject:
   m_ObjectHideFlags: 0
