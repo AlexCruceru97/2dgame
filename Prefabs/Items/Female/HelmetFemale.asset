@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f879c92b888b84e9e770a12eb01f0c, type: 3}
+  m_Name: HelmetFemale
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 2f58ba1c2b1a6aa4fa9e3ca5abbcc646, type: 3}
+  title: Helmet of hell
+  quality: 2
+  stackSize: 0
+  price: 500
+  armorType: 0
+  intelligence: 15
+  strength: 5
+  stamina: 10
+  sex: Female
+  animationClips:
+  - {fileID: 7400000, guid: 09425717beea4d04e86ce9793b4c7027, type: 2}
+  - {fileID: 7400000, guid: 124126aefdbdf3c4fa0a5fec1ac34a76, type: 2}
+  - {fileID: 7400000, guid: a5910738c70334d4b94dd1048efba43e, type: 2}
+  - {fileID: 7400000, guid: b03410aa8ce40cf42bc61b9ad8cac501, type: 2}
+  - {fileID: 7400000, guid: 665715ff36b75bb4ebab5bfda8249efe, type: 2}
+  - {fileID: 7400000, guid: 4053fe79635b4934f8a2d3ed76b0b7ee, type: 2}
+  - {fileID: 7400000, guid: 7f3ad8ac2d0ac9040959421e28235272, type: 2}
+  - {fileID: 7400000, guid: 84d5baf5209f872459a8b88d99142a58, type: 2}
+  - {fileID: 7400000, guid: 4a3ffb18f560c0147ba164144ffd9e61, type: 2}
+  - {fileID: 7400000, guid: 23afc3f09eba61043ade73bd455fab1d, type: 2}
+  - {fileID: 7400000, guid: 51a7c1e6ccfdee9459244210299e2b73, type: 2}
+  - {fileID: 7400000, guid: 7f9b76b826754e34d9ab0e1d7f192272, type: 2}

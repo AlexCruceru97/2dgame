@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f879c92b888b84e9e770a12eb01f0c, type: 3}
+  m_Name: MaleLegs
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 412e171abbb26544e822ba594807e56e, type: 3}
+  title: Iron Legs
+  quality: 1
+  stackSize: 0
+  price: 111
+  armorType: 4
+  intelligence: 10
+  strength: 5
+  stamina: 10
+  sex: Male
+  animationClips:
+  - {fileID: 7400000, guid: be719569e3a71cf4b9dc5d549c9b565f, type: 2}
+  - {fileID: 7400000, guid: 68ef7d13f1ac2a846aa6e9bb38eec763, type: 2}
+  - {fileID: 7400000, guid: 1035029683d23a4459a40f320c1957a4, type: 2}
+  - {fileID: 7400000, guid: 4af410c69c8766947be486183d9af49b, type: 2}
+  - {fileID: 7400000, guid: e098424c962be7840ae581bcc1bcd217, type: 2}
+  - {fileID: 7400000, guid: 0110942748b389b4bb5753de8f860ca0, type: 2}
+  - {fileID: 7400000, guid: b80600d0c0025aa4e8cc041379f4a810, type: 2}
+  - {fileID: 7400000, guid: 6d3d911fe8f6d4b47aa558d7a2b37791, type: 2}
+  - {fileID: 7400000, guid: e955cbb7ea14db341985e6c7cf7ee456, type: 2}
+  - {fileID: 7400000, guid: bb7b12581824fa74e88a45558ce1c902, type: 2}
+  - {fileID: 7400000, guid: 62438f096a35b7743ab6ca660e77b30c, type: 2}
+  - {fileID: 7400000, guid: b6f5c6201e6984c4a97d730f423baf72, type: 2}

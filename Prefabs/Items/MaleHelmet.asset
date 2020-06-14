@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f879c92b888b84e9e770a12eb01f0c, type: 3}
+  m_Name: MaleHelmet
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 73dca25641399fd4995a4269ba9fa9e9, type: 3}
+  title: Legion Helmet
+  quality: 3
+  stackSize: 0
+  price: 5000
+  armorType: 0
+  intelligence: 5
+  strength: 25
+  stamina: 15
+  sex: Male
+  animationClips:
+  - {fileID: 7400000, guid: 6bf1395015873c943a1f714dbb7a14b1, type: 2}
+  - {fileID: 7400000, guid: 4884b360540944344b1d01fbf81b7525, type: 2}
+  - {fileID: 7400000, guid: be95e234020e6d243b410eb4b197321b, type: 2}
+  - {fileID: 7400000, guid: 6cecb41c0e740e345bac2b53a53159b6, type: 2}
+  - {fileID: 7400000, guid: 5bdcd7d796fc8154c809d6677cec265c, type: 2}
+  - {fileID: 7400000, guid: 8616674ddc54f3a4b928c0645a773b74, type: 2}
+  - {fileID: 7400000, guid: 2a8f8b3fb0993c64d9687d5beebda7e3, type: 2}
+  - {fileID: 7400000, guid: 4290213459d84ce489b40ff7628a2256, type: 2}
+  - {fileID: 7400000, guid: 695e6bf94a89c34448fdc6dd5cdfb04e, type: 2}
+  - {fileID: 7400000, guid: 81fe00d1fd73e05439b3cc9303115f80, type: 2}
+  - {fileID: 7400000, guid: 634e3bbdddc5d8d459de4105f13e67e0, type: 2}
+  - {fileID: 7400000, guid: af92a1e8c1c2c25468b28f63ec2a4938, type: 2}

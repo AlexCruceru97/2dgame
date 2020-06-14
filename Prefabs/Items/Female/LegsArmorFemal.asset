@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f879c92b888b84e9e770a12eb01f0c, type: 3}
+  m_Name: LegsArmorFemal
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 74954dafe499a684384a21efab148875, type: 3}
+  title: Legs of Steel
+  quality: 1
+  stackSize: 0
+  price: 120
+  armorType: 4
+  intelligence: 12
+  strength: 1
+  stamina: 15
+  sex: Female
+  animationClips:
+  - {fileID: 7400000, guid: d0b99b5c7b578204bb9870e86add9e85, type: 2}
+  - {fileID: 7400000, guid: 23834fa2144150442af397a55b75b533, type: 2}
+  - {fileID: 7400000, guid: 0cd2ecb9676a1034f92a8b07e442de1d, type: 2}
+  - {fileID: 7400000, guid: b1e6a4ecd6ec7a741a6c2cfa8cc48d94, type: 2}
+  - {fileID: 7400000, guid: 1441054cadd07fe4882b2e5ed73e545a, type: 2}
+  - {fileID: 7400000, guid: 595ab865fa8f8a047aa9cadb9362cffc, type: 2}
+  - {fileID: 7400000, guid: 6cce26a2a04309641adfcc3637c99c1b, type: 2}
+  - {fileID: 7400000, guid: 3696ddad0132725479fbb6678632b725, type: 2}
+  - {fileID: 7400000, guid: cab8b813348e7264c9686816f8d5e5ba, type: 2}
+  - {fileID: 7400000, guid: bf0ef881d4ab7f44ba6ebbe63fed6d1b, type: 2}
+  - {fileID: 7400000, guid: 231c7b954fc6a254c9109d217be7002a, type: 2}
+  - {fileID: 7400000, guid: f9c8b154d2a75c74e995aa0d5615a216, type: 2}

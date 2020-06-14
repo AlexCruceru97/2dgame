@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f879c92b888b84e9e770a12eb01f0c, type: 3}
+  m_Name: ChestFemale
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 6dd0667982f225c45a2e22433be77f1e, type: 3}
+  title: Begger Tunic
+  quality: 0
+  stackSize: 0
+  price: 10
+  armorType: 1
+  intelligence: 2
+  strength: 2
+  stamina: 2
+  sex: Female
+  animationClips:
+  - {fileID: 7400000, guid: 66dd54392eb67dd44bd942776ec7217f, type: 2}
+  - {fileID: 7400000, guid: df67332605f556541bd7e38626ef45de, type: 2}
+  - {fileID: 7400000, guid: a76e997dfb405fc4f8b1eb920c7ac4aa, type: 2}
+  - {fileID: 7400000, guid: 8b9da6bfc46f0f648bfd01082a9ad9df, type: 2}
+  - {fileID: 7400000, guid: fb26f0e5b746b7e4a9b0c4540bec77aa, type: 2}
+  - {fileID: 7400000, guid: c0b7804d9ca01ee4e8590c4de8c4fe05, type: 2}
+  - {fileID: 7400000, guid: 0bfb91a75439f974a91039989a9561f1, type: 2}
+  - {fileID: 7400000, guid: 790df2ae027fe5847aa8a7b0aa1d3ec3, type: 2}
+  - {fileID: 7400000, guid: 25e4f268557af9944938c68bffe47a6f, type: 2}
+  - {fileID: 7400000, guid: 55f2e5bd13008624cb6a381efbab9114, type: 2}
+  - {fileID: 7400000, guid: bad3a123c7b1ee449b9f4080d18b4d6e, type: 2}
+  - {fileID: 7400000, guid: 53d770a1910362d4c8eac212ce205115, type: 2}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f879c92b888b84e9e770a12eb01f0c, type: 3}
+  m_Name: BootsFemale
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 535bf2b276788c548a0f8929940e7f35, type: 3}
+  title: Boots of Swiftness
+  quality: 2
+  stackSize: 0
+  price: 170
+  armorType: 5
+  intelligence: 20
+  strength: 13
+  stamina: 8
+  sex: Female
+  animationClips:
+  - {fileID: 7400000, guid: ea68fe32fec145c4db2dbcdc20ca709f, type: 2}
+  - {fileID: 7400000, guid: c2aeb433ad678d74988791abd4074d13, type: 2}
+  - {fileID: 7400000, guid: b95f2a8501715e343b80c8a92d20097f, type: 2}
+  - {fileID: 7400000, guid: 40af39e553699654094803532c62c0ac, type: 2}
+  - {fileID: 7400000, guid: 59e19ab62180dd24692b744c68b59a7e, type: 2}
+  - {fileID: 7400000, guid: b853ee9bfcc62804b8b41d93f1a3232b, type: 2}
+  - {fileID: 7400000, guid: b95b105238f183e43aee50d84613141c, type: 2}
+  - {fileID: 7400000, guid: 32b3e536ceda74342b0e55f2ae25e699, type: 2}
+  - {fileID: 7400000, guid: 8d74c697582b87e4392efbf95b556f8d, type: 2}
+  - {fileID: 7400000, guid: 9f1a9ede0825da145afbd7b77538c370, type: 2}
+  - {fileID: 7400000, guid: 1e331b2062104f246a38c78c38d2bdf0, type: 2}
+  - {fileID: 7400000, guid: 0daab8def4cd30941981590adf72b6df, type: 2}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f879c92b888b84e9e770a12eb01f0c, type: 3}
+  m_Name: Crane
+  m_EditorClassIdentifier: 
+  icon: {fileID: -7573354855677281409, guid: f51e40446d8fa3d449ab0c326fbdc498, type: 3}
+  title: Crane Of A Old Mage
+  quality: 1
+  stackSize: 0
+  price: 70
+  armorType: 6
+  intelligence: 20
+  strength: 6
+  stamina: 7
+  sex: Female
+  animationClips:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 7400000, guid: 7e1622511445c654ea9f51e483c0234d, type: 2}
+  - {fileID: 7400000, guid: c8b4c9f8148395647a08efd0ddf03cc6, type: 2}
+  - {fileID: 7400000, guid: 2f132dd8b86d0ea438f8991b9727640a, type: 2}
+  - {fileID: 7400000, guid: cf21834a25da03a469809bac5538d7fb, type: 2}
+  - {fileID: 7400000, guid: 0a9fc59bab76bf54e97ef4b1e03a8cb2, type: 2}
+  - {fileID: 7400000, guid: 275d3214f2cf6b64282e230b5b3b3d92, type: 2}
+  - {fileID: 7400000, guid: a58ffcba58c93ce4c9f4629ee46673cf, type: 2}
+  - {fileID: 7400000, guid: 4fd4e1b07aa691541880279a99cf85f5, type: 2}

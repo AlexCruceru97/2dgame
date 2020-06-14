@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f879c92b888b84e9e770a12eb01f0c, type: 3}
+  m_Name: GlovesFemale
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 03c2b8d13b949754f8c2bc30f9268ff7, type: 3}
+  title: Glove of Hell
+  quality: 3
+  stackSize: 0
+  price: 1750
+  armorType: 3
+  intelligence: 30
+  strength: 15
+  stamina: 20
+  sex: Female
+  animationClips:
+  - {fileID: 7400000, guid: cf5fd78d55e71d544a3e6fb4603fbcb2, type: 2}
+  - {fileID: 7400000, guid: 04661a973ff92a04f972e45ccdce7dd8, type: 2}
+  - {fileID: 7400000, guid: 81f8ae1f06896f8448459e9878f0bc8a, type: 2}
+  - {fileID: 7400000, guid: 6c14350db697edf4d8da08942c2e7a34, type: 2}
+  - {fileID: 7400000, guid: 185c913ef4633874d908ecffc07db3d6, type: 2}
+  - {fileID: 7400000, guid: 10369b8ee872a2d4b9ef500a975be17b, type: 2}
+  - {fileID: 7400000, guid: b3246ac96a423504a940f09913fab855, type: 2}
+  - {fileID: 7400000, guid: 5ead4e564a6b81c4f8cc5a8c972a02f8, type: 2}
+  - {fileID: 7400000, guid: 5473151d8b4fa974d9892b5aecc6311f, type: 2}
+  - {fileID: 7400000, guid: 19c5564ac84206440ba9ebd056ed8bbd, type: 2}
+  - {fileID: 7400000, guid: 9a69c9dfb0678824984019d9bf99adde, type: 2}
+  - {fileID: 7400000, guid: 80ec2998cc4f8764184d87fb138c4297, type: 2}

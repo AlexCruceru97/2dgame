@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f879c92b888b84e9e770a12eb01f0c, type: 3}
+  m_Name: MaleChest
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: e7f2a4a9175200a468c58cccc83e01cb, type: 3}
+  title: Golden Chest
+  quality: 1
+  stackSize: 0
+  price: 100
+  armorType: 1
+  intelligence: 5
+  strength: 10
+  stamina: 10
+  sex: Male
+  animationClips:
+  - {fileID: 7400000, guid: 30290f78f2400b346b8912f218f81a61, type: 2}
+  - {fileID: 7400000, guid: 8a2c853e5a96fbe49ba427c644772265, type: 2}
+  - {fileID: 7400000, guid: 05e8b4c26eb0b704db67f80200acbb45, type: 2}
+  - {fileID: 7400000, guid: 8b5ce7df0c42f0d448ebe6719a407407, type: 2}
+  - {fileID: 7400000, guid: c31eb48d3a62f0a4da13b0a93c07d363, type: 2}
+  - {fileID: 7400000, guid: 630426353f3b8bf4a9e8e04c15e114e6, type: 2}
+  - {fileID: 7400000, guid: f4a91724f659e65449230d2d4489fa30, type: 2}
+  - {fileID: 7400000, guid: 424b5c2ac6c5a214fbd3e14b0a7fbf5d, type: 2}
+  - {fileID: 7400000, guid: 1eebef6212d78b44e82222668e766145, type: 2}
+  - {fileID: 7400000, guid: 1692670aeb6027f4c8a21de771f1d9bb, type: 2}
+  - {fileID: 7400000, guid: 0d9f590c4c8cc1b49bc331c373379061, type: 2}
+  - {fileID: 7400000, guid: 36390f7a9363c074fbdc7d6c9126daac, type: 2}
